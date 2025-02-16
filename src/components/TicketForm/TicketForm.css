@@ -1,0 +1,71 @@
+.ticket-form-container {
+  background: #0d1b2a;
+  height: 100vh;
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+  color: #e0f2f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ticket-form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.ticket-form-container h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+label {
+  width: 100%;
+  text-align: left;
+  margin: 10px 0 3px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #4db6ac;
+  margin-bottom: 10px;
+  background: #112031;
+  color: #e0f2f1;
+}
+
+.error {
+  color: #ff5252;
+  font-size: 12px;
+  align-self: flex-start;
+  margin-bottom: 10px; 
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.back-button, .submit-button {
+  background: #4db6ac;
+  color: #fdfefe;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 48%;
+  text-align: center;
+}
+
+.back-button:hover, .submit-button:hover {
+  background: #26a69a;
+}

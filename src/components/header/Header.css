@@ -1,0 +1,60 @@
+  .navbar {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(1, 19, 30, 0.9);
+    border-radius: 10px;
+    border: 1px solid #4db6ac;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4db6ac;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    transition: 0.3s;
+    color: #e0f2f1;
+    font-weight: 500;
+  }
+  
+  .nav-links li:hover {
+    color: #4db6ac;
+  }
+  
+  .tickets-button {
+    background-color: #fff;
+    color: #01131e;
+    border: 2px solid #f6f7f7;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .tickets-button:hover {
+    background-color: #bcf5ef;
+  }
+
+  @media screen and (max-width: 768px) {
+    .navbar {
+      text-align: center;
+    }
+    .nav-links {
+        display: none;
+      }
+  }
+    

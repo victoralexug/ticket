@@ -1,0 +1,147 @@
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  margin-top: 40px;
+  background: rgba(1, 19, 30, 0.95);
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid #255752;
+  box-shadow: 0px 4px 10px rgba(77, 182, 172, 0.2);
+  width: 50%;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+.step-indicator {
+  color: #b2dfdb;
+}
+
+.progress-line {
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #26b0a5 50%, #44576d 50%);
+}
+
+.ticket-desc{
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 15px;
+  background: rgba(1, 19, 30, 0.95);
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid #255752;
+  box-shadow: 0px 4px 10px rgba(77, 182, 172, 0.2);
+}
+
+.hr {
+  margin-top: 20px;
+  width: 100%;
+  height: 1px;
+  background: #0b4540;
+}
+
+.ticket-selection, .ticket-quantity {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.ticket-quantity select{
+  background: transparent;
+  color: #fff;
+  padding: 5px;
+  border: 1px solid #0b4540;
+  border-radius: 10px;
+}
+
+.ticket-options {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ticket-button {
+  background: transparent;
+  color: #4db6ac;
+  border: 1px solid #4db6ac;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.ticket-button span {
+  font-weight: bold;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.cancel-button {
+  background-color: transparent;
+  color: #e0f2f1;
+  border: 2px solid #e0f2f1;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cancel-button:hover {
+  background-color: #e0f2f1;
+  color: #01131e;
+}
+
+.cta-button {
+  background-color: #4db6ac;
+  color: #01131e;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #26a69a;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .button-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .ticket-options {
+    flex-direction: column;
+  }
+  .cta-button, .cancel-button {
+    width: 100%;
+  }
+}

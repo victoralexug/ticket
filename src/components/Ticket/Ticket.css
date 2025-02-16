@@ -1,0 +1,47 @@
+/* General Styles */
+body {
+    background-color: #011627;
+    color: #e0e1dd;
+    font-family: "Arial", sans-serif;
+  }
+
+  .ticket-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ticket-card {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #022c43;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+
+.avatar-preview {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid #4db6ac;
+}
+
+.back-button {
+  background: #4db6ac;
+  color: #fdfefe;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 48%;
+  text-align: center;
+}
+
+.back-button:hover {
+  background: #26a69a;
+} 
